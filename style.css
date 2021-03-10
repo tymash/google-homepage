@@ -1,0 +1,139 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.layout {
+  display: grid;
+  grid-template-rows: 60px 1fr 40px;
+  height: 100vh;
+}
+
+.flexbox {
+  display: flex;
+}
+
+header {
+  align-items: center;
+  justify-content: space-between;
+}
+
+header div {
+  align-items: center;
+}
+
+.hitem1 {
+  padding-left: 20px;
+}
+
+.hitem2 {
+  padding-right: 20px;  
+}
+
+.hlink {
+  font: 13px Arial,sans-serif;
+  text-decoration: none;
+  color: rgba(0,0,0,0.87);
+}
+
+.hlink:hover {
+  text-decoration: underline;
+}
+
+.mainflex {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.search {
+  align-items: center;
+  width: 584px;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  height: 44px;
+  margin-top: 27px;
+}
+
+.searchbar {
+  background-color: transparent;
+  border: none;
+  height: 34px;
+  font-size: 16px;
+  width: 487px;
+  padding-left: 20px;
+  padding-right: 20px;
+  word-wrap: break-word;
+  outline: none;
+}
+
+.magbutton {
+  padding-left: 20px;
+  width: 20px;
+  height: 18px;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+}
+
+.mainbutton {
+  padding-top: 18px;
+  align-items: center;
+  height: 70px;
+}
+
+.mainbutton button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  height: 36px;
+  min-width: 54px;
+}
+
+.mainbutton button:hover {
+  box-shadow: 0 1px 1px rgba(0,0,0,.1);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+.mainbutton a {
+  font: 14px Arial,sans-serif;
+  text-decoration: none;
+  color: rgba(0,0,0,0.87);
+}
+
+footer {
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+footer div {
+  align-items: center;
+  
+}
+
+footer a {
+  color: #5f6368;
+  font: 14px Arial,sans-serif;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.fitem1 {
+  padding-left: 30px;
+}
+
+.fitem2 {
+  padding-right: 30px;  
+}
